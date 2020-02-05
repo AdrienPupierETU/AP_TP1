@@ -12,8 +12,8 @@ public class app {
         eSmallest.calc();
         System.out.println("e not Bigger :");
         eNotBigger.calc();
-        //PolygonArea poly= new PolygonArea();
-        //poly.calc();
+        PolygonArea poly= new PolygonArea();
+        poly.calc();
         Perceptron perceptron= new Perceptron(2,2); // l'equation a approximé
         System.out.println("HyperPlan Separateur par perceptron :");
         perceptron.CreateTrainingSet();
